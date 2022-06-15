@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h1,h3,figcaption{
+  
+  font-family:Oswald, Verdana, Arial, sans-serif ;
+  color: rgba(185, 63, 8,1);
+  
+}
+#image-gallery{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-top: 10%;
+}
+
+img{
+  width: 400px;
+  height: 350px;
+
+}
+
+figure{
+  text-align: center;
+}
+figcaption{
+  font-style: italic;
+  font-size: .75em;
+}
+
+body{
+  background-color: rgba(247, 112, 24, .2);
+  /* opacity: 20%; */
+  
+}
+.gallery-item{
+  border-radius: 15px;
+  border: 1px solid rgba(185, 63, 8);
+  padding: 5px;
+}
